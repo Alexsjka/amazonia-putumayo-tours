@@ -71,7 +71,7 @@ if (formulario) {
 
         }
 
-        console.log(" MENSAJE");
+        console.log(" MENSAJE: ");
         console.log("Nombre:", nombre);
         console.log("Correo:", correo);
         console.log("Mensaje:", mensaje);
