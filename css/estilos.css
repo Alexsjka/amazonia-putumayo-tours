@@ -1,6 +1,5 @@
-/* =========================
-   CONFIGURACIÓN GENERAL
-========================= */
+
+/*CONFIGURACIÓN GENERAL*/
 
 *{
     margin:0;
@@ -18,9 +17,7 @@ body{
     background:#f8f9fa;
 }
 
-/* =========================
-   NAVBAR
-========================= */
+/*NAVBAR*/
 
 .navbar{
     box-shadow:0 2px 10px rgba(0,0,0,.2);
@@ -30,9 +27,7 @@ body{
     font-size:1.3rem;
 }
 
-/* =========================
-   HERO
-========================= */
+/* HERO */
 
 .hero{
     height:100vh;
@@ -73,9 +68,7 @@ body{
     margin:20px 0;
 }
 
-/* =========================
-   BOTONES
-========================= */
+/* BOTONES */
 
 .btn{
     transition:.3s;
@@ -85,18 +78,14 @@ body{
     transform:translateY(-3px);
 }
 
-/* =========================
-   TITULOS
-========================= */
+/* TITULOS */
 
 .section-title{
     color:#198754;
     font-weight:bold;
 }
 
-/* =========================
-   CARDS
-========================= */
+/* CARDS */
 
 .card{
     border:none;
@@ -114,9 +103,7 @@ body{
     object-fit:cover;
 }
 
-/* =========================
-   GALERIA
-========================= */
+/* GALERIA */
 
 .galeria img{
     width:100%;
@@ -131,9 +118,7 @@ body{
     transform:scale(1.05);
 }
 
-/* =========================
-   CLIMA
-========================= */
+/* CLIMA */
 
 .clima-box{
     max-width:600px;
@@ -141,9 +126,7 @@ body{
     font-size:1.2rem;
 }
 
-/* =========================
-   ESTADISTICAS
-========================= */
+/* ESTADISTICA */
 
 .stats{
     background:#198754;
@@ -155,9 +138,7 @@ body{
     font-size:3rem;
 }
 
-/* =========================
-   FOOTER
-========================= */
+/* FOOTER */
 
 footer{
     background:#146c43;
@@ -166,9 +147,7 @@ footer{
     margin-top:50px;
 }
 
-/* =========================
-   MODO OSCURO
-========================= */
+/* MODO OSCURO */
 
 .dark-mode{
     background:#121212;
@@ -184,9 +163,7 @@ footer{
     background:#000;
 }
 
-/* =========================
-   ANIMACIONES
-========================= */
+/* ANIMACIONES */
 
 .fade-up{
     animation:fadeUp 1s ease;
@@ -206,9 +183,7 @@ footer{
 
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
+/* RESPONSIVE */
 
 @media(max-width:768px){
 

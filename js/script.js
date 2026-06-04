@@ -1,6 +1,6 @@
-// =====================
+
 // API CLIMA
-// =====================
+
 
 const clima = document.getElementById("clima");
 
@@ -28,9 +28,9 @@ ${data.current_weather.windspeed} km/h</p>
 
 }
 
-// =====================
+
 // MODO OSCURO
-// =====================
+
 
 function cambiarTema(){
 
@@ -49,47 +49,37 @@ document.body.classList.add("dark-mode");
 
 }
 
-// =====================
+
 // VALIDACIÓN FORMULARIO
-// =====================
 
-const formulario =
-document.getElementById("formulario");
+const formulario = document.getElementById("formulario");
 
-if(formulario){
+if (formulario) {
 
-formulario.addEventListener("submit",function(e){
+    formulario.addEventListener("submit", function(e) {
 
-e.preventDefault();
+        e.preventDefault();
 
-const nombre=
-document.getElementById("nombre").value.trim();
+        const nombre = document.getElementById("nombre").value.trim();
+        const correo = document.getElementById("correo").value.trim();
+        const mensaje = document.getElementById("mensaje").value.trim();
 
-const correo=
-document.getElementById("correo").value.trim();
+        if(nombre === "" || correo === "" || mensaje === "") {
 
-const mensaje=
-document.getElementById("mensaje").value.trim();
+            alert("Por favor complete todos los campos");
+            return;
 
-if(nombre==="" ||
-correo==="" ||
-mensaje===""){
+        }
 
-alert("Complete todos los campos");
+        console.log(" MENSAJE");
+        console.log("Nombre:", nombre);
+        console.log("Correo:", correo);
+        console.log("Mensaje:", mensaje);
 
-return;
+        alert("Mensaje enviado correctamente");
 
-}
+        formulario.reset();
 
-localStorage.setItem(
-"ultimoUsuario",
-nombre
-);
-
-alert("Formulario enviado correctamente");
-
-formulario.reset();
-
-});
+    });
 
 }
