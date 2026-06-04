@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Servicios | Amazonía Putumayo Tours</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="index.html">
+                Amazonía Putumayo Tours
+            </a>
+
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menu">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="servicios.html">Servicios</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeria.html">Galería</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- ENCABEZADO -->
+
+    <header class="bg-success text-white text-center py-5">
+
+        <div class="container">
+
+            <h1 class="display-4">
+                Nuestros Servicios
+            </h1>
+
+            <p class="lead">
+                Experiencias diseñadas para descubrir lo mejor del Putumayo.
+            </p>
+
+        </div>
+
+    </header>
+
+    <!-- TOURS -->
+
+    <main class="container py-5">
+
+        <div class="row g-4">
+
+            <!-- TOUR 1 -->
+
+            <div class="col-md-4">
+
+                <div class="card shadow h-100">
+
+                    <img src="img/tour1.jfif"
+                         class="card-img-top"
+                         alt="Fin del Mundo">
+
+                    <div class="card-body">
+
+                        <h4>Cascada Fin del Mundo</h4>
+
+                        <p>
+                            Caminata ecológica y visita a uno de los destinos más famosos de Mocoa.
+                        </p>
+
+                        <button class="btn btn-success"
+                                data-bs-toggle="modal"
+                                data-bs-target="#tour1">
+
+                            Ver Servicios
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- TOUR 2 -->
+
+            <div class="col-md-4">
+
+                <div class="card shadow h-100">
+
+                    <img src="img/tour2.jfif"
+                         class="card-img-top"
+                         alt="Senderismo">
+
+                    <div class="card-body">
+
+                        <h4>Senderismo Amazónico</h4>
+
+                        <p>
+                            Explora senderos naturales rodeados de flora y fauna amazónica.
+                        </p>
+
+                        <button class="btn btn-success"
+                                data-bs-toggle="modal"
+                                data-bs-target="#tour2">
+
+                            Ver Servicios
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- TOUR 3 -->
+
+            <div class="col-md-4">
+
+                <div class="card shadow h-100">
+
+                    <img src="img/tour3.jfif"
+                         class="card-img-top"
+                         alt="Cultura">
+
+                    <div class="card-body">
+
+                        <h4>Cultura Indígena</h4>
+
+                        <p>
+                            Vive una experiencia cultural con comunidades ancestrales.
+                        </p>
+
+                        <button class="btn btn-success"
+                                data-bs-toggle="modal"
+                                data-bs-target="#tour3">
+
+                            Ver Servicios
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- ACORDEÓN -->
+
+    <section class="container py-5">
+
+        <h2 class="text-center mb-4">
+            Preguntas Frecuentes
+        </h2>
+
+        <div class="accordion" id="faq">
+
+            <div class="accordion-item">
+
+                <h2 class="accordion-header">
+
+                    <button class="accordion-button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#p1">
+
+                        ¿Qué incluyen los tours?
+
+                    </button>
+
+                </h2>
+
+                <div id="p1"
+                     class="accordion-collapse collapse show"
+                     data-bs-parent="#faq">
+
+                    <div class="accordion-body">
+
+                        Transporte, guía turístico y acompañamiento durante el recorrido.
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="accordion-item">
+
+                <h2 class="accordion-header">
+
+                    <button class="accordion-button collapsed"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#p2">
+
+                        ¿Qué debo llevar?
+
+                    </button>
+
+                </h2>
+
+                <div id="p2"
+                     class="accordion-collapse collapse"
+                     data-bs-parent="#faq">
+
+                    <div class="accordion-body">
+
+                        Ropa cómoda, agua, protector solar y calzado adecuado.
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="accordion-item">
+
+                <h2 class="accordion-header">
+
+                    <button class="accordion-button collapsed"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#p3">
+
+                        ¿Los tours son seguros?
+
+                    </button>
+
+                </h2>
+
+                <div id="p3"
+                     class="accordion-collapse collapse"
+                     data-bs-parent="#faq">
+
+                    <div class="accordion-body">
+
+                        Sí, contamos con guías capacitados y rutas seguras.
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- MODAL TOUR 1 -->
+
+    <div class="modal fade" id="tour1">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">
+                        Cascada Fin del Mundo
+                    </h5>
+
+                    <button class="btn-close"
+                            data-bs-dismiss="modal">
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    Incluye transporte, guía y recorrido ecológico.
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- MODAL TOUR 2 -->
+
+    <div class="modal fade" id="tour2">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">
+                        Senderismo Amazónico
+                    </h5>
+
+                    <button class="btn-close"
+                            data-bs-dismiss="modal">
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    Recorrido por senderos naturales y observación de biodiversidad.
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- MODAL TOUR 3 -->
+
+    <div class="modal fade" id="tour3">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">
+                        Cultura Indígena
+                    </h5>
+
+                    <button class="btn-close"
+                            data-bs-dismiss="modal">
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    Experiencia cultural, gastronomía y tradiciones ancestrales.
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+
+    <footer class="text-center">
+
+        <div class="container">
+
+            <p class="mb-0">
+                © 2025 Amazonía Putumayo Tours
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
