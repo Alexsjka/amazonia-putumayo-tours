@@ -10,6 +10,7 @@ Sitio web turístico.
 - Bootstrap 5
 - API Open-Meteo
 - LocalStorage
+- Google MAP
 
 ## Funcionalidades
 
