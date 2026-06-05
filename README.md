@@ -34,4 +34,4 @@ Sitio web turístico.
 
 
 ## Despliegue
-- versel
+- vercel
