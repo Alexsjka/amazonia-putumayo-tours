@@ -50,6 +50,8 @@ document.body.classList.add("dark-mode");
 }
 
 
+
+
 // VALIDACIÓN FORMULARIO
 
 const formulario = document.getElementById("formulario");
